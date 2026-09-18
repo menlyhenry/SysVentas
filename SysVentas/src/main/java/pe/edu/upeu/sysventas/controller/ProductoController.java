@@ -1,5 +1,6 @@
 package pe.edu.upeu.sysventas.controller;
 
+<<<<<<< HEAD
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import lombok.RequiredArgsConstructor;
@@ -25,6 +26,10 @@ public class ProductoController {
         cbxMarca.getItems().addAll(ms.listarCombobox());
         cbxCategoria.getItems().addAll(cs.listarCombobox());
     }
+=======
+public class ProductoController {
+
+>>>>>>> 854bc0e56e563799c1dd606e81116e37ace6af33
 
 
 }

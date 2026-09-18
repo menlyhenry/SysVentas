@@ -18,6 +18,7 @@ public class MarcaRepository extends AbstractJpaRepository<Marca,Long> {
     protected Long generateId() {
         return sequence++;
     }
+<<<<<<< HEAD
 
     public void seedData() {
         if (findAll().isEmpty()) {
@@ -28,4 +29,6 @@ public class MarcaRepository extends AbstractJpaRepository<Marca,Long> {
             save(new Marca(generateId(),"Lenovo"));
         }
     }
+=======
+>>>>>>> 854bc0e56e563799c1dd606e81116e37ace6af33
 }
